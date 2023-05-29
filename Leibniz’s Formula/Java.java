@@ -4,13 +4,16 @@ import java.math.MathContext;
 
 public class Java {
     public static void main(String args[]){
-        BigInteger loop = new BigInteger("10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"); 
+        //BigInteger loop = new BigInteger("1000000000000000000000000000000000000"); 
+        //  pi = 3.14159265361178915286156977376603325515454207
+        //  iterations = 45462988347
+        //  around 5 hours
         //unhinged test above, fuck it
-        //final BigInteger loop         = new BigInteger("10000000000");
-        BigInteger denominator  = new BigInteger("1");
-        final BigDecimal numerator    = new BigDecimal("4");
-        BigDecimal pi           = new BigDecimal("0"); 
-        BigInteger i            = new BigInteger("0");
+        final BigInteger loop       = new BigInteger("10000000000");
+        BigInteger denominator      = new BigInteger("1");
+        final BigDecimal numerator  = new BigDecimal("4");
+        BigDecimal pi               = new BigDecimal("0"); 
+        BigInteger i                = new BigInteger("0");
         while(loop.compareTo(i) > 0){
             //divideAndRemainder retuns an array, x[1] is the remainder, then we compare te remainter to se if it's even
             BigInteger[] x = i.divideAndRemainder(BigInteger.TWO);
