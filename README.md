@@ -6,7 +6,6 @@ PCC (![Vai Corinthians](https://www.youtube.com/watch?v=o5B3LU5AZTg)) is just a 
 
    Time Complexity:
         **O(N * logN * loglogN), where**
-
         N = number of iterations
         Division of two numbers of order O(N) takes O(logN loglogN) time.
  
