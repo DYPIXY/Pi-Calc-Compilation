@@ -1,5 +1,7 @@
-# Pi-Calc-Competition
-PCC (![Vai Corinthians](https://www.youtube.com/watch?v=o5B3LU5AZTg)) is just a little competition among programming languages on calculating aproximations of pi. I don't expect to update this repo very often
+# Pi-Calculation-Compillation
+PCC (![Vai Corinthians](https://www.youtube.com/watch?v=o5B3LU5AZTg)) is just a compilattion of scripts among programming languages on calculating aproximations of pi. I don't expect to update this repo very often.
 
 ## [ Formula Explanation and Pseudo Code ]
-> studyng rn, gonna come back
+### Leibniz formula for π
+> https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
+
