@@ -6,7 +6,7 @@ int main(){
     unsigned long long int loop = 1000000000000000000;
     unsigned long long int denominator = 1;
     long double pi = 0;
-    int constant = 4;
+    const int constant = 4;
     for (int i = 0; i <= loop; i++) {
         if (i % 2 == 0) {
             float temp = (long double)constant/denominator;
