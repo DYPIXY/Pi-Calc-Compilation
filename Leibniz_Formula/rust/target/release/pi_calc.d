@@ -1,1 +1,1 @@
-/home/deick/Desktop/projects/Pi-Calc-Competition/Leibniz’s\ Formula/rust/target/release/pi_calc: /home/deick/Desktop/projects/Pi-Calc-Competition/Leibniz’s\ Formula/rust/src/main.rs
+/home/derick/Dropbox/Clonlara/12-ano/Exit/Capstone/Pi-Calc-Compilation/Leibniz_Formula/rust/target/release/pi_calc: /home/derick/Dropbox/Clonlara/12-ano/Exit/Capstone/Pi-Calc-Compilation/Leibniz_Formula/rust/src/main.rs

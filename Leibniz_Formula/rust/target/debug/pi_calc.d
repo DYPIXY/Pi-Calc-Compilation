@@ -1,0 +1,1 @@
+/home/derick/Dropbox/Clonlara/12-ano/Exit/Capstone/Pi-Calc-Compilation/Leibniz_Formula/rust/target/debug/pi_calc: /home/derick/Dropbox/Clonlara/12-ano/Exit/Capstone/Pi-Calc-Compilation/Leibniz_Formula/rust/src/main.rs

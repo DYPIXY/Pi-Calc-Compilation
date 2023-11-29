@@ -3,8 +3,8 @@ sum = 0
 loop = 100000
 
 for i in range 0 to loop 
-    #even index add to sum
     if i % 2 == 0:
+        #even index add to sum
         sum += 4/denominator
     else
         #odd index subtract from sum
