@@ -5,7 +5,7 @@
 int main()
 {
     // 10^18 - 1000000000000000000
-    unsigned long long int loop = 1000000000000000000;
+    unsigned long long int loop = 10000000000;
     mpz_t numerator;
     mpz_init_set_ui(numerator, 4);
     mpz_t denominator;
@@ -17,7 +17,7 @@ int main()
     mpf_t tempFloat;
     mpf_init(tempFloat);
     
-    for (int i = 0; i < loop; i++)
+    for (unsigned long long i = 0; i < loop; i++)
     {
         mpq_set_num(tempFrac, numerator);
         mpq_set_den(tempFrac, denominator);
@@ -25,7 +25,7 @@ int main()
         mpf_set_q(tempFloat, tempFrac);
         if (i % 2 == 0)
         {
-            mpf_add(pi, pi, tempFloat); // pi = pi + tempFLoat
+            mpf_add(pi, pi, tempFloat);
         }
         else
         {
@@ -33,6 +33,6 @@ int main()
         }
         mpz_add_ui(denominator, denominator, 2);
     }
-    // std::cout << std::setprecision(LDBL_MANT_DIG) << pi << std::endl;
-    std::cout << std::setprecision(200) << pi << std::endl;
+
+    gmp_printf ("Pi: %.Ff", pi);
 }

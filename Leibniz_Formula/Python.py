@@ -1,8 +1,8 @@
 #Initialize denominator
 denominator = 1
 sum = 0
-loop = 1000000000000000000
-
+#loop = 1000000000000000000
+loop = 10000000000
 for i in range(0, loop):
     #even index add to sum
     if i % 2 == 0:
