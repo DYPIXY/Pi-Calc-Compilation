@@ -1,5 +1,5 @@
 # Pi-Calculation-Compillation
-PCC (![Vai Corinthians](https://www.youtube.com/watch?v=o5B3LU5AZTg)) is just a compilattion of scripts among programming languages on calculating aproximations of pi. I don't expect to update this repo very often.
+Just a compilattion of scripts among programming languages for calculating aproximations of pi.
 
 ## [ Formula Explanation and Pseudo Code ]
 ### Leibniz formula for π
