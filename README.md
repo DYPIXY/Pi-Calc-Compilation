@@ -1,7 +1,7 @@
 # Pi-Calculation-Compillation
 Just a compilattion of scripts in various programming languages intended to calculate aproximations of pi.
 
-## [ Formula Explanation and Pseudo Code ]
+## [ Leibniz formula for π ]
 ### Leibniz formula for π
 
 Time Complexity **O(N * logN * loglogN), where:** <br>
